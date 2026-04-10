@@ -12,6 +12,7 @@ btn.addEventListener("mouseout",()=>{
 btn.addEventListener("click", ()=>{
 	let count = parseInt(p.innerText);
 	count += 1;
-	p.innerText = count;
 	alert(p.innerText)
+	p.innerText = count;
+	
 })
