@@ -1,5 +1,5 @@
 //your JS code here. If required.
-let btn = document.getElementById("btn")
+let btn = document.getElementById("incrementBtn")
 let p = document.getElementById("counter")
 
 btn.addEventListener("mouseover",()=>{
@@ -13,4 +13,5 @@ btn.addEventListener("click", ()=>{
 	let count = parseInt(p.innerText);
 	count += 1;
 	p.innerText = count;
+	alert(p.innerText)
 })
